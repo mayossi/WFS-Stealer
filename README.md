@@ -14,6 +14,12 @@ So, what do you do? use WFS Stealer.
 
 WFS Stealer is a DLL that when injected to Windows Fax & Scan process hooks certain functions that enable it to steal images of scanned documents, store them in another location, all without the user noticing anything.
 
+As part of my learning journey into hooking, I decided to take a deeper look into WFS, a program I used to work with a lot at the time.
+
+After some reversing with Ghidra and Sysinternalsuite and ApiMon fun, I found which functions should be hooked.
+The function itself was hooked using the Detours library.
+
+
 ### WTF is WFS.EXE?
 
 TL;DR - A faxing and scanning utility available from Vista to Windows 11.
