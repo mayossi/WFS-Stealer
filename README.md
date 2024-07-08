@@ -1,5 +1,9 @@
 # WFS Stealer
 
+> [!NOTE]  
+> This project was written a few years ago. Source code will be updated soon.
+> It was developed as a plugin for my implant and c2 framework.
+
 Lets say you are an attacker that pwned a victim's Windows box and you have a 
 special intrest in scanned documents.
 After taking some screenshots and watching your targets actions you found out he is using none
@@ -9,8 +13,6 @@ So, what do you do? use WFS Stealer.
 WFS Stealer is a DLL that when injected to Windows Fax & Scan process hooks certain functions that enable it to steal images of scanned documents, store them in another location, all without the user noticing anything.
 
 A quick little demo of a POC version of the project in action is [available here!](https://youtu.be/HdC1e6Rpves?si=15ez4nDGZeyE9o3b)
-
-WFS Stealer was developed as a plugin for my implant and c2 framework.
 
 ### WTF is WFS.EXE?
 
